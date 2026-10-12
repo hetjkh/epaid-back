@@ -1,0 +1,22 @@
+{
+  "name": "e-paid-back",
+  "version": "1.0.0",
+  "description": "ePAiD admin API backend",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed:products": "node scripts/seed-products.js",
+    "create-admin": "node scripts/create-admin.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}

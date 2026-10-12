@@ -1,0 +1,1049 @@
+[
+  {
+    "title": "F20 Smart Payment Terminal",
+    "description": "The F20 is an all-in-one financial terminal with omni-channel payment — NFC, magnetic stripe, IC card, and QR code. Android 14, a quad-core 2.0GHz processor, a 5.5\" HD display, a high-speed 58mm thermal printer, and a high-voltage battery in a smart wireless design built for retail, restaurants, hotels, parking, and gas stations.",
+    "highlights": [
+      "Android 14",
+      "Quad-Core 2.0GHz",
+      "4G · Wi-Fi · Bluetooth",
+      "58mm printer · 80mm/s",
+      "5.5\" HD display"
+    ],
+    "features": [
+      {
+        "title": "Omni-channel payment",
+        "description": "Accept NFC, magnetic stripe, IC card, and QR code payments from a single device."
+      },
+      {
+        "title": "Smooth, stable operation",
+        "description": "Android 14, a high-performance processor, and a stable network deliver a smooth and reliable experience all day."
+      },
+      {
+        "title": "All-in-one financial terminal",
+        "description": "High-speed printer, high-voltage battery, smart design, and extensive reliability testing — with an optional embedded fingerprint module — integrated into one wireless terminal."
+      },
+      {
+        "title": "Print anytime, anywhere",
+        "description": "The powerful thermal printer handles 58mm paper at 80mm/s for fast order and receipt printing wherever you are."
+      }
+    ],
+    "price": "SAR 199.00",
+    "mainImage": {
+      "url": "/epaid-prodcuts/f20/Smart_payment_terminal_on_table_2K_20261012123236.jpg",
+      "publicId": "static-f20-main"
+    },
+    "galleryImages": [
+      {
+        "url": "/epaid-prodcuts/f20/F20_Smart_Payment_Terminal_on_2K_20261012123236.jpg",
+        "publicId": "static-f20-1"
+      },
+      {
+        "url": "/epaid-prodcuts/f20/Payment_terminal_flat_lay_photog_2K_20261012123242.jpg",
+        "publicId": "static-f20-2"
+      },
+      {
+        "url": "/epaid-prodcuts/f20/F20_Smart_Payment_Terminal_shot_2K_20261012123254.jpg",
+        "publicId": "static-f20-3"
+      },
+      {
+        "url": "/epaid-prodcuts/f20/F20_Smart_Payment_Terminal_showcase_2K_20261012123241.jpg",
+        "publicId": "static-f20-4"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Operating System",
+        "value": "Android 14"
+      },
+      {
+        "label": "Processor",
+        "value": "Quad-Core 4×A53 @ 2.0GHz"
+      },
+      {
+        "label": "Memory",
+        "value": "2GB RAM + 32GB ROM"
+      },
+      {
+        "label": "Display",
+        "value": "5.5\" HD IPS LCD, 720×1440, multi-touch"
+      },
+      {
+        "label": "Camera",
+        "value": "Rear 8MP AF with flash, Front 2MP FF, 1D/2D barcode"
+      },
+      {
+        "label": "Network",
+        "value": "4G / 3G / 2G"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Wi-Fi 5: 2.4 & 5GHz"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Bluetooth 5.0 / BLE"
+      },
+      {
+        "label": "GPS",
+        "value": "GPS, BDS, Galileo, GLONASS, QZSS, SBAS"
+      },
+      {
+        "label": "Card Slots",
+        "value": "SIM×2 + PSAM×1 (optional eSIM×1 + SIM×1 + PSAM×1)"
+      },
+      {
+        "label": "Magnetic Stripe",
+        "value": "ISO/IEC 7811, 7813, Track 1/2/3, bi-directional"
+      },
+      {
+        "label": "IC Card",
+        "value": "ISO/IEC 7816, EMV L1/L2"
+      },
+      {
+        "label": "NFC",
+        "value": "13.56MHz, ISO/IEC 14443, ISO 18092, Type A&B, Felica, Mifare"
+      },
+      {
+        "label": "QR Code",
+        "value": "Supported"
+      },
+      {
+        "label": "Printer",
+        "value": "High-speed thermal, 58mm paper, 80mm/s"
+      },
+      {
+        "label": "Battery",
+        "value": "7.6V/2500mAh (equal to 3.8V/5000mAh)"
+      },
+      {
+        "label": "Ports",
+        "value": "USB Type-C ×1 (USB 2.0, OTG)"
+      },
+      {
+        "label": "Power",
+        "value": "Input 100–240V AC, 50/60Hz · Output 5V DC/2.0A"
+      },
+      {
+        "label": "Dimensions",
+        "value": "212.6 × 79.1 × 51.9 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "427g"
+      },
+      {
+        "label": "Certifications",
+        "value": "PCI, EMV L1&L2, EMV Contactless L1, Paypass, PayWave, Amex, Discover, JCB, CE, FCC"
+      }
+    ]
+  },
+  {
+    "title": "F300 Smart Payment Terminal",
+    "description": "Small and smart — the F300 accepts NFC, magnetic stripe, IC card, and QR code payments in a compact 174g body. Android 14, 4G/Wi-Fi/Bluetooth connectivity, and proven hardware reliability make it ideal for business on the go, from restaurants and retail to transportation and public utilities.",
+    "highlights": [
+      "Android 14",
+      "4G / 3G / 2G",
+      "Wi-Fi 2.4 & 5GHz",
+      "Bluetooth 5.0",
+      "Only 174g"
+    ],
+    "features": [
+      {
+        "title": "Small and smart, diversified payments",
+        "description": "NFC, magnetic stripe, IC card, and QR code payments packed into a pocket-sized terminal."
+      },
+      {
+        "title": "Your business, on the go",
+        "description": "4G/3G/2G, dual-band Wi-Fi, and Bluetooth 5.0 keep you connected anytime, anywhere."
+      },
+      {
+        "title": "Smaller, but smarter",
+        "description": "Greatly improves payment efficiency in scenarios from restaurants to retail, and from transportation to public utilities."
+      },
+      {
+        "title": "Proven reliability",
+        "description": "Passed a wide range of hardware reliability tests — ideal for harsh environments, operating from -10°C to 50°C."
+      }
+    ],
+    "price": "SAR 149.00",
+    "mainImage": {
+      "url": "/epaid-prodcuts/f300/Smart_payment_terminal_on_table_2K_20261012122211.jpg",
+      "publicId": "static-f300-main"
+    },
+    "galleryImages": [
+      {
+        "url": "/epaid-prodcuts/f300/Dark_blue_smart_payment_terminal_2K_20261012122207.jpg",
+        "publicId": "static-f300-1"
+      },
+      {
+        "url": "/epaid-prodcuts/f300/Dark_blue_payment_terminal_photo_2K_20261012122219.jpg",
+        "publicId": "static-f300-2"
+      },
+      {
+        "url": "/epaid-prodcuts/f300/Smart_payment_terminal_on_table_2K_20261012122215.jpg",
+        "publicId": "static-f300-3"
+      },
+      {
+        "url": "/epaid-prodcuts/f300/Smart_payment_terminal_showcase__2K_20261012122221.jpg",
+        "publicId": "static-f300-4"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Operating System",
+        "value": "Android 14"
+      },
+      {
+        "label": "Processor",
+        "value": "Quad-Core 4×A53 @ 2.0GHz"
+      },
+      {
+        "label": "Memory",
+        "value": "2GB RAM + 32GB ROM"
+      },
+      {
+        "label": "Display",
+        "value": "4.0\" IPS LCD, 480×800, multi-touch"
+      },
+      {
+        "label": "Camera",
+        "value": "Rear 2MP FF with flash, 1D/2D barcode"
+      },
+      {
+        "label": "Network",
+        "value": "4G / 3G / 2G"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Wi-Fi 5: 2.4 & 5GHz"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Bluetooth 5.0 / BLE"
+      },
+      {
+        "label": "GPS",
+        "value": "GPS, BDS, Galileo, GLONASS, QZSS, SBAS"
+      },
+      {
+        "label": "Card Slots",
+        "value": "SIM×1 + SIM/PSAM×1 (optional eSIM×1 + SIM×1 + PSAM×1)"
+      },
+      {
+        "label": "Magnetic Stripe",
+        "value": "ISO/IEC 7811, 7813, Track 1/2/3, bi-directional"
+      },
+      {
+        "label": "IC Card",
+        "value": "ISO/IEC 7816, EMV L1/L2"
+      },
+      {
+        "label": "NFC",
+        "value": "13.56MHz, ISO/IEC 14443, ISO/IEC 18092, Type A&B, Felica, Mifare"
+      },
+      {
+        "label": "QR Code",
+        "value": "Supported"
+      },
+      {
+        "label": "Battery",
+        "value": "3.8V/2800mAh (built-in)"
+      },
+      {
+        "label": "Ports",
+        "value": "USB Type-C ×1 (USB 2.0, OTG)"
+      },
+      {
+        "label": "Dimensions",
+        "value": "135.5 × 65 × 16.5 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "174g"
+      },
+      {
+        "label": "Environment",
+        "value": "Operating -10°C ~ 50°C · Storage -20°C ~ 70°C · 5–96% RH"
+      },
+      {
+        "label": "Certifications",
+        "value": "PCI, EMV L1&L2, EMV Contactless L1, Paypass, PayWave, JCB, Amex, Discover, CE, FCC"
+      }
+    ]
+  },
+  {
+    "title": "F210 Smart Payment Terminal",
+    "description": "The F210 brings a safe and fast payment environment with NFC, magnetic stripe, IC card, and QR code acceptance. Android 12, a compact 5\" HD touch screen, an ultra-long 5200mAh battery that lasts all day, and a high-speed thermal printer for smooth receipt printing.",
+    "highlights": [
+      "Android 12",
+      "Quad-Core 1.4GHz",
+      "5\" HD touch screen",
+      "5200mAh battery",
+      "Printer · 75mm/s"
+    ],
+    "features": [
+      {
+        "title": "Omni-channel payment",
+        "description": "Accept NFC, magnetic stripe, IC card, and QR code payments with one terminal."
+      },
+      {
+        "title": "Advanced connectivity, powerful performance",
+        "description": "Android 12, a quad-core processor, and stable 4G/Wi-Fi/Bluetooth networking create a safe, fast payment environment for merchants."
+      },
+      {
+        "title": "Compact & stylish",
+        "description": "The 5-inch HD touch screen fits comfortably in your hand and delivers a splendid viewing and touch experience."
+      },
+      {
+        "title": "Ultra-long battery life",
+        "description": "A 5200mAh large-capacity battery lets merchants focus on business throughout the entire day."
+      },
+      {
+        "title": "High-speed printing",
+        "description": "The thermal printer prints 58mm receipts at 75mm/s for fast, smooth customer service."
+      }
+    ],
+    "price": "SAR 249.00",
+    "mainImage": {
+      "url": "/epaid-prodcuts/f210/Smart_payment_terminal_on_table_2K_20261012122015.jpg",
+      "publicId": "static-f210-main"
+    },
+    "galleryImages": [
+      {
+        "url": "/epaid-prodcuts/f210/Smart_payment_terminal_on_tabletop_2K_20261012122021.jpg",
+        "publicId": "static-f210-1"
+      },
+      {
+        "url": "/epaid-prodcuts/f210/Handheld_payment_terminal_on_table_2K_20261012122012.jpg",
+        "publicId": "static-f210-2"
+      },
+      {
+        "url": "/epaid-prodcuts/f210/Payment_terminal_product_shot_2K_20261012121956.jpg",
+        "publicId": "static-f210-3"
+      },
+      {
+        "url": "/epaid-prodcuts/f210/Smart_payment_terminal_product_s_2K_20261012122024.jpg",
+        "publicId": "static-f210-4"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Operating System",
+        "value": "Android 12"
+      },
+      {
+        "label": "Processor",
+        "value": "Quad-Core 4×A53 @ 1.4GHz"
+      },
+      {
+        "label": "Memory",
+        "value": "1GB RAM + 8GB ROM (optional 2GB + 16GB)"
+      },
+      {
+        "label": "Display",
+        "value": "5.0\" IPS LCD, 480×854, multi-touch"
+      },
+      {
+        "label": "Camera",
+        "value": "Rear 2MP FF with flash, 1D/2D barcode (optional Rear 8MP AF + Front 2MP)"
+      },
+      {
+        "label": "Network",
+        "value": "4G / 3G / 2G"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Wi-Fi 5: 2.4 & 5GHz"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Bluetooth 4.2 / BLE"
+      },
+      {
+        "label": "GPS",
+        "value": "GPS, BDS, GLONASS/Galileo"
+      },
+      {
+        "label": "Card Slots",
+        "value": "SIM×2 + PSAM×1 + TF card×1 (up to 256GB)"
+      },
+      {
+        "label": "Magnetic Stripe",
+        "value": "ISO/IEC 7811, 7813, Track 1/2/3, bi-directional"
+      },
+      {
+        "label": "IC Card",
+        "value": "ISO/IEC 7816, EMV L1/L2"
+      },
+      {
+        "label": "NFC",
+        "value": "13.56MHz, ISO/IEC 14443, ISO 18092, Type A&B, Felica, Mifare"
+      },
+      {
+        "label": "QR Code",
+        "value": "Supported"
+      },
+      {
+        "label": "Printer",
+        "value": "Thermal, 58mm paper, 75mm/s"
+      },
+      {
+        "label": "Battery",
+        "value": "3.7V/5200mAh (2×18650)"
+      },
+      {
+        "label": "Ports",
+        "value": "USB Type-C ×1 (USB 2.0, OTG), Pogo pin (6-pin) ×1"
+      },
+      {
+        "label": "Power",
+        "value": "Input 100–240V AC, 50/60Hz · Output 5V DC/2.0A"
+      },
+      {
+        "label": "Dimensions",
+        "value": "197 × 82.1 × 52.5 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "410g"
+      },
+      {
+        "label": "Certifications",
+        "value": "PCI, EMV L1&L2, EMV Contactless L1, Amex, PayWave, Paypass, Discover, JCB, CE, FCC"
+      }
+    ]
+  },
+  {
+    "title": "F100 Android Portable POS",
+    "description": "The F100 Android portable POS combines NFC and QR code payments for versatile, flexible business. Android 11, a 5\" HD display, a professional barcode/QR scanner with LED flash, a built-in thermal printer, and an open API to connect with your ERP and membership systems — all in a rugged, anti-slip industrial design.",
+    "highlights": [
+      "Android 11",
+      "Quad-Core 2.0GHz",
+      "5\" HD 720×1280",
+      "NFC + QR payments",
+      "Built-in printer"
+    ],
+    "features": [
+      {
+        "title": "NFC + QR, versatile and flexible",
+        "description": "Combines NFC and QR code payments to break through business boundaries and bring more opportunities."
+      },
+      {
+        "title": "Shared information and data",
+        "description": "An open API lets you connect with your existing ERP and membership systems without the heavy cost of new systems."
+      },
+      {
+        "title": "Professional scanner",
+        "description": "Scans barcodes and QR codes quickly, with an LED flash for fast scanning even in dim environments."
+      },
+      {
+        "title": "Professional industrial design",
+        "description": "Soft rubber material with anti-slip design, a non-slip mat for stable tabletop use, and a battery buckle that keeps the battery in place if dropped."
+      }
+    ],
+    "price": "SAR 179.00",
+    "mainImage": {
+      "url": "/epaid-prodcuts/f100/Handheld_terminal_standing_on_table_2K_20261012122345.jpg",
+      "publicId": "static-f100-main"
+    },
+    "galleryImages": [
+      {
+        "url": "/epaid-prodcuts/f100/Terminal_on_tabletop_2K_20261012122402.jpg",
+        "publicId": "static-f100-1"
+      },
+      {
+        "url": "/epaid-prodcuts/f100/Handheld_terminal_on_wooden_table_2K_20261012122350.jpg",
+        "publicId": "static-f100-2"
+      },
+      {
+        "url": "/epaid-prodcuts/f100/Handheld_terminal_resting_on_table_2K_20261012122341.jpg",
+        "publicId": "static-f100-3"
+      },
+      {
+        "url": "/epaid-prodcuts/f100/F100_payment_terminal_product_sh_2K_20261012122406.jpg",
+        "publicId": "static-f100-4"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Operating System",
+        "value": "Android 11"
+      },
+      {
+        "label": "Processor",
+        "value": "Quad-Core 4×A53 @ 2.0GHz"
+      },
+      {
+        "label": "Memory",
+        "value": "2GB RAM + 16GB ROM"
+      },
+      {
+        "label": "Display",
+        "value": "5.0\" HD IPS LCD, 720×1280, multi-touch"
+      },
+      {
+        "label": "Camera",
+        "value": "Rear 8MP AF with flash, 1D/2D barcode"
+      },
+      {
+        "label": "Network",
+        "value": "4G / 3G / 2G"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Wi-Fi 5: 2.4 & 5GHz"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Bluetooth 5.0"
+      },
+      {
+        "label": "GPS",
+        "value": "GPS/A-GPS, GLONASS, BDS, Galileo"
+      },
+      {
+        "label": "Card Slots",
+        "value": "SIM×2 + TF card×1"
+      },
+      {
+        "label": "NFC",
+        "value": "13.56MHz, ISO/IEC 14443, ISO/IEC 18092, Type A&B, Felica, Mifare"
+      },
+      {
+        "label": "QR Code",
+        "value": "Supported"
+      },
+      {
+        "label": "Scanner",
+        "value": "1D/2D scanner (optional)"
+      },
+      {
+        "label": "Printer",
+        "value": "Thermal, 58mm paper"
+      },
+      {
+        "label": "Battery",
+        "value": "3.8V/4000mAh"
+      },
+      {
+        "label": "Ports",
+        "value": "USB Type-C ×1 (USB 2.0, OTG), 3.5mm audio jack ×1"
+      },
+      {
+        "label": "Power",
+        "value": "Input 100–240V AC, 50/60Hz · Output 5V DC/2.0A"
+      },
+      {
+        "label": "Dimensions",
+        "value": "197 × 77 × 52.6 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "323g"
+      },
+      {
+        "label": "Certifications",
+        "value": "CE, ANRT, EAC, CB, BIS, WPC, GSMA, JATE, TELEC, Google GMS SafetyNet"
+      }
+    ]
+  },
+  {
+    "title": "M500 Android ECR / Cash Register",
+    "description": "The M500 Android cash register delivers safe, stable performance on Android 11 with 4GB + 64GB memory. A 15.6\" Full HD multi-touch main display, an optional customer-facing second screen for promotions and transaction info, and a built-in 200mm/s thermal printer for fast receipts.",
+    "highlights": [
+      "Android 11",
+      "Quad-Core 2.0GHz",
+      "4GB + 64GB",
+      "15.6\" Full HD",
+      "Printer · 200mm/s"
+    ],
+    "features": [
+      {
+        "title": "Excellent performance, safe and stable",
+        "description": "Android 11 and a high-efficiency quad-core processor provide a safe and stable operating environment for merchants."
+      },
+      {
+        "title": "Large main screen, sensitive multi-touch",
+        "description": "The 15.6\" Full HD main display offers a splendid viewing experience, and the sensitive touch panel speeds up every transaction."
+      },
+      {
+        "title": "Optional dual screen",
+        "description": "The customer-facing screen can run advertisements and promotions and display transaction details for an intuitive checkout."
+      },
+      {
+        "title": "Multiple configurations",
+        "description": "Choose 15.6\" + 15.6\", 15.6\" + 10.1\", 15.6\" + F600 tablet, or a single 15.6\" screen — each in 2GB + 16GB or 4GB + 64GB."
+      },
+      {
+        "title": "High-speed printing",
+        "description": "The built-in thermal printer prints 80mm receipts at up to 200mm/s for fast, smooth checkout."
+      }
+    ],
+    "price": "SAR 2,499.00",
+    "mainImage": {
+      "url": "/epaid-prodcuts/m500/M500_Android_ECR_Cash_Register_2K_20261012122920.jpg",
+      "publicId": "static-m500-main"
+    },
+    "galleryImages": [
+      {
+        "url": "/epaid-prodcuts/m500/M500_Android_ECR_Cash_Register_2K_20261012122942.jpg",
+        "publicId": "static-m500-1"
+      },
+      {
+        "url": "/epaid-prodcuts/m500/Cash_register_on_table_2K_20261012122935.jpg",
+        "publicId": "static-m500-2"
+      },
+      {
+        "url": "/epaid-prodcuts/m500/M500_Android_Cash_Register_Rear_2K_20261012122936.jpg",
+        "publicId": "static-m500-3"
+      },
+      {
+        "url": "/epaid-prodcuts/m500/Cash_register_product_showcase_i_2K_20261012122925.jpg",
+        "publicId": "static-m500-4"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Operating System",
+        "value": "Android 11"
+      },
+      {
+        "label": "Processor",
+        "value": "Quad-Core 4×A55 @ 2.0GHz"
+      },
+      {
+        "label": "Memory",
+        "value": "4GB RAM + 64GB ROM (2GB + 16GB variants available)"
+      },
+      {
+        "label": "Display",
+        "value": "15.6\" FHD (1920×1080) + 15.6\" FHD, multi-point touch"
+      },
+      {
+        "label": "Screen Options",
+        "value": "15.6\" + 15.6\", 15.6\" + 10.1\", 15.6\" + F600, or single 15.6\""
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "2.4 & 5GHz, 802.11 b/g/n/ac"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Bluetooth 4.2 (BR/EDR + BLE)"
+      },
+      {
+        "label": "Camera",
+        "value": "3D camera (optional)"
+      },
+      {
+        "label": "Printer",
+        "value": "Built-in thermal, 80mm paper, up to 200mm/s"
+      },
+      {
+        "label": "Card Slot",
+        "value": "TF card ×1"
+      },
+      {
+        "label": "Audio",
+        "value": "3W speaker"
+      },
+      {
+        "label": "Ports",
+        "value": "USB Type-A ×5, RJ11, RJ12, RJ45, DC, 3.5mm audio jack"
+      },
+      {
+        "label": "Power",
+        "value": "Input 100–240V AC, 50/60Hz · Output 24V DC/2.75A"
+      },
+      {
+        "label": "Dimensions",
+        "value": "382 × 190 × 400 mm"
+      },
+      {
+        "label": "Environment",
+        "value": "Operating -10°C ~ 50°C · Storage -20°C ~ 70°C · 5–96% RH"
+      },
+      {
+        "label": "In the Box",
+        "value": "Adapter ×1, manual ×1"
+      },
+      {
+        "label": "Certifications",
+        "value": "CE, RoHS, WEEE, NTRA-VOC, ANRT"
+      }
+    ]
+  },
+  {
+    "title": "M300 Android ECR / Cash Register",
+    "description": "The M300 Android cash register runs Android 11 on an efficient quad-core processor and is compatible with a wide range of Android apps. A crystal-clear 15.6\" Full HD touch display, rich connectivity, multiple screen combinations, and a delicate, stylish design for any countertop.",
+    "highlights": [
+      "Android 11",
+      "Quad-Core 2.0GHz",
+      "2GB + 16GB (4GB + 64GB optional)",
+      "15.6\" Full HD"
+    ],
+    "features": [
+      {
+        "title": "Excellent performance",
+        "description": "Android 11 and a high-efficiency quad-core processor keep the M300 compatible with a wide range of Android applications."
+      },
+      {
+        "title": "15.6\" FHD large screen, easy operation",
+        "description": "The 1920×1080 main display delivers a crystal-clear visual experience, and the sensitive touch makes transactions smoother."
+      },
+      {
+        "title": "Rich connections, strong compatibility",
+        "description": "Five USB ports plus RJ11, RJ12, RJ45, and audio connections meet the needs of many different application scenarios."
+      },
+      {
+        "title": "Multiple screen combinations",
+        "description": "Choose 15.6\" + 15.6\", 15.6\" + 10.1\", 15.6\" + F600 tablet, or a single 15.6\" screen to match your counter."
+      },
+      {
+        "title": "Delicate & stylish appearance",
+        "description": "A stylish design that fits naturally into retail stores, cafés, restaurants, and many other settings."
+      }
+    ],
+    "price": "SAR 0.00",
+    "mainImage": {
+      "url": "/epaid-prodcuts/m300/Android_ECR_cash_register_on_2K_20261012122730.jpg",
+      "publicId": "static-m300-main"
+    },
+    "galleryImages": [
+      {
+        "url": "/epaid-prodcuts/m300/M300_Android_ECR_cash_register_2K_20261012122734.jpg",
+        "publicId": "static-m300-1"
+      },
+      {
+        "url": "/epaid-prodcuts/m300/M300_Android_ECR_cash_register_2K_20261012122741.jpg",
+        "publicId": "static-m300-2"
+      },
+      {
+        "url": "/epaid-prodcuts/m300/Rear_angle_of_cash_register_2K_20261012122738.jpg",
+        "publicId": "static-m300-3"
+      },
+      {
+        "url": "/epaid-prodcuts/m300/Infographic_showcasing_Android_c_2K_20261012122727.jpg",
+        "publicId": "static-m300-4"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Operating System",
+        "value": "Android 11"
+      },
+      {
+        "label": "Processor",
+        "value": "Quad-Core 4×A55 @ 2.0GHz"
+      },
+      {
+        "label": "Memory",
+        "value": "2GB RAM + 16GB ROM (optional 4GB + 64GB)"
+      },
+      {
+        "label": "Display",
+        "value": "15.6\" FHD (1920×1080) + 15.6\" FHD, multi-point touch"
+      },
+      {
+        "label": "Screen Options",
+        "value": "15.6\" + 15.6\", 15.6\" + 10.1\", 15.6\" + F600, or single 15.6\""
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "2.4 & 5GHz, 802.11 b/g/n/ac"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Bluetooth 4.2 (BR/EDR + BLE)"
+      },
+      {
+        "label": "Camera",
+        "value": "3D camera (optional)"
+      },
+      {
+        "label": "Card Slot",
+        "value": "TF card ×1"
+      },
+      {
+        "label": "Audio",
+        "value": "3W speaker"
+      },
+      {
+        "label": "Ports",
+        "value": "USB Type-A ×5, RJ11, RJ12, RJ45, DC, 3.5mm audio jack"
+      },
+      {
+        "label": "Power",
+        "value": "Input 100–240V AC, 50/60Hz · Output 24V DC/2.75A"
+      },
+      {
+        "label": "Dimensions",
+        "value": "382 × 190 × 352 mm"
+      },
+      {
+        "label": "Environment",
+        "value": "Operating -10°C ~ 50°C · Storage -20°C ~ 70°C · 5–96% RH"
+      },
+      {
+        "label": "In the Box",
+        "value": "Adapter ×1, manual ×1"
+      },
+      {
+        "label": "Certifications",
+        "value": "CE, RoHS, WEEE, NTRA-VOC, ANRT"
+      }
+    ]
+  },
+  {
+    "title": "F600 Android SmartTAB",
+    "description": "The F600 is an Android payment tablet with omni-channel payment — NFC, magnetic stripe, IC card, and QR code. An octa-core processor, Android 14, 4GB + 64GB memory, an ultra-large 8\" HD display, and an all-day 8000mAh battery, backed by financial-grade security certifications. Pairs with printer, scanner, and fingerprint docks.",
+    "highlights": [
+      "Android 14",
+      "Octa-Core 2.0GHz",
+      "4GB + 64GB",
+      "8\" HD display",
+      "8000mAh battery",
+      "8MP + 5MP cameras"
+    ],
+    "features": [
+      {
+        "title": "Omni-channel payment",
+        "description": "Accept NFC, magnetic stripe, IC card, and QR code payments on a full Android tablet."
+      },
+      {
+        "title": "Extraordinary performance",
+        "description": "An octa-core processor delivers better performance and reliability, running a wide range of Android apps for any business need."
+      },
+      {
+        "title": "Ultra-large screen",
+        "description": "The 8\" HD 1280×800 multi-touch display gives a wider view and a better interactive experience."
+      },
+      {
+        "title": "Large battery capacity",
+        "description": "An 8000mAh battery lets merchants focus on business all day long."
+      },
+      {
+        "title": "Financial-grade data protection",
+        "description": "Multiple financial-industry certifications, including PCI and EMV, provide a secure payment environment for merchants and customers."
+      },
+      {
+        "title": "Modular accessories",
+        "description": "Extend with charging printer docks, smart multi docks, handheld printer and scanner modules, and fingerprint or palm-print readers."
+      }
+    ],
+    "price": "SAR 0.00",
+    "mainImage": {
+      "url": "/epaid-prodcuts/f600/F600_Payment_Android_Tablet_stan_2K_20261012122530.jpg",
+      "publicId": "static-f600-main"
+    },
+    "galleryImages": [
+      {
+        "url": "/epaid-prodcuts/f600/F600_payment_android_tablet_tabl_2K_20261012122525.jpg",
+        "publicId": "static-f600-1"
+      },
+      {
+        "url": "/epaid-prodcuts/f600/F600_Payment_Android_Tablet_resting_2K_20261012122543.jpg",
+        "publicId": "static-f600-2"
+      },
+      {
+        "url": "/epaid-prodcuts/f600/F600_Payment_Tablet_Infographic__2K_20261012122538.jpg",
+        "publicId": "static-f600-3"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Operating System",
+        "value": "Android 14"
+      },
+      {
+        "label": "Processor",
+        "value": "Octa-Core up to A73 @ 2.0GHz"
+      },
+      {
+        "label": "Memory",
+        "value": "4GB RAM + 64GB ROM"
+      },
+      {
+        "label": "Display",
+        "value": "8\" HD IPS LCD, 800×1280, multi-touch"
+      },
+      {
+        "label": "Camera",
+        "value": "Rear 8MP AF with flash, Front 5MP FF, 1D/2D barcode"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "2.4 & 5GHz"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Bluetooth 5.1 / BLE"
+      },
+      {
+        "label": "GPS",
+        "value": "GPS, BDS, GLONASS, Galileo, QZSS"
+      },
+      {
+        "label": "Card Slots",
+        "value": "SIM×2 + PSAM×1 (optional TF card / eSIM configurations)"
+      },
+      {
+        "label": "Magnetic Stripe",
+        "value": "ISO/IEC 7811, 7813, Track 1/2/3, bi-directional"
+      },
+      {
+        "label": "IC Card",
+        "value": "ISO/IEC 7816, EMV L1/L2"
+      },
+      {
+        "label": "NFC",
+        "value": "13.56MHz, ISO/IEC 14443, ISO 18092, Type A&B, Felica, Mifare"
+      },
+      {
+        "label": "QR Code",
+        "value": "Supported"
+      },
+      {
+        "label": "Battery",
+        "value": "3.8V/8000mAh"
+      },
+      {
+        "label": "Ports",
+        "value": "USB Type-C ×1 (USB 2.0, OTG), Pogo pin (12-pin) ×1, Pogo pin (6-pin) ×1"
+      },
+      {
+        "label": "Power",
+        "value": "Input 100–240V AC, 50/60Hz · Output 5V DC/2.0A"
+      },
+      {
+        "label": "Dimensions",
+        "value": "251 × 136 × 15.8 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "705g"
+      },
+      {
+        "label": "Environment",
+        "value": "Operating -10°C ~ 50°C · Storage -20°C ~ 70°C · 5–96% RH"
+      },
+      {
+        "label": "Certifications",
+        "value": "PCI, EMV L1&L2, EMV Contactless L1, Amex, PayWave, Paypass, Discover, JCB, CE, FCC"
+      }
+    ]
+  },
+  {
+    "title": "P10 Portable Thermal Printer",
+    "description": "The P10 is a portable thermal printer for on-the-go receipts. Works with Android, iOS, and Windows over Bluetooth or USB, prints up to 90mm/s on 58mm paper, and supports ESC commands — a light 274g companion for mobile merchants.",
+    "highlights": [
+      "Android · iOS · Windows",
+      "Up to 90mm/s",
+      "Bluetooth + USB",
+      "Only 274g"
+    ],
+    "features": [
+      {
+        "title": "Works with every platform",
+        "description": "Print from Android, iOS, and Windows devices, with ESC command compatibility for easy integration."
+      },
+      {
+        "title": "Fast, sharp thermal printing",
+        "description": "Prints at up to 90mm/s with 384 dots per line across a 48mm effective print width."
+      },
+      {
+        "title": "Dual connectivity",
+        "description": "Connect wirelessly over Bluetooth or with a USB cable."
+      },
+      {
+        "title": "Truly portable",
+        "description": "A compact 274g body with a rechargeable 7.4V/1800mAh battery and Type-C charging goes wherever your business does."
+      }
+    ],
+    "price": "SAR 0.00",
+    "mainImage": {
+      "url": "/epaid-prodcuts/p10/P10_portable_thermal_receipt_pri_2K_20261012123122.jpg",
+      "publicId": "static-p10-main"
+    },
+    "galleryImages": [
+      {
+        "url": "/epaid-prodcuts/p10/Portable_receipt_printer_on_table_2K_20261012123141.jpg",
+        "publicId": "static-p10-1"
+      },
+      {
+        "url": "/epaid-prodcuts/p10/Portable_receipt_printer_on_table_2K_20261012123133.jpg",
+        "publicId": "static-p10-2"
+      },
+      {
+        "url": "/epaid-prodcuts/p10/P10_portable_thermal_printer_pri_2K_20261012123130.jpg",
+        "publicId": "static-p10-3"
+      },
+      {
+        "url": "/epaid-prodcuts/p10/Portable_receipt_printer_product_2K_20261012123126.jpg",
+        "publicId": "static-p10-4"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Compatibility",
+        "value": "Android, iOS, Windows"
+      },
+      {
+        "label": "Printing Mode",
+        "value": "Thermal printing"
+      },
+      {
+        "label": "Print Width",
+        "value": "48mm effective"
+      },
+      {
+        "label": "Print Density",
+        "value": "384 dots/line"
+      },
+      {
+        "label": "Print Speed",
+        "value": "Up to 90mm/s"
+      },
+      {
+        "label": "Interface",
+        "value": "USB + Bluetooth"
+      },
+      {
+        "label": "Paper",
+        "value": "58mm width, 50mm roll diameter, 0.05–0.15mm thickness"
+      },
+      {
+        "label": "Print Command",
+        "value": "ESC compatible"
+      },
+      {
+        "label": "Character Size",
+        "value": "12×24 dots"
+      },
+      {
+        "label": "Battery",
+        "value": "7.4V/1800mAh"
+      },
+      {
+        "label": "Power Adapter",
+        "value": "Type-C, output 5V DC/1A"
+      },
+      {
+        "label": "Dimensions",
+        "value": "112 × 81 × 56 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "274g"
+      },
+      {
+        "label": "Environment",
+        "value": "Operating -10°C ~ 50°C · Storage -20°C ~ 70°C · 5–96% RH"
+      },
+      {
+        "label": "Certifications",
+        "value": "CE"
+      }
+    ]
+  }
+]

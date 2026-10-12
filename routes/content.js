@@ -4,7 +4,15 @@ const { requireAuth } = require("../middleware/auth");
 
 const router = express.Router();
 
-const ALLOWED_KEYS = new Set(["home", "about", "solutions", "blogs"]);
+const ALLOWED_KEYS = new Set([
+  "home",
+  "about",
+  "solutions",
+  "blogs",
+  "contact",
+  "partnerships",
+  "footer",
+]);
 
 const MAX_DEPTH = 12;
 const UNSAFE_KEYS = new Set(["__proto__", "constructor", "prototype"]);

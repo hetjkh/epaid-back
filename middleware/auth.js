@@ -1,5 +1,11 @@
+const crypto = require("crypto");
 const jwt = require("jsonwebtoken");
 const AdminSession = require("../models/AdminSession");
+
+/** Sessions store a hash of the token, so a database leak doesn't expose usable tokens. */
+function hashToken(token) {
+  return crypto.createHash("sha256").update(token).digest("hex");
+}
 
 async function requireAuth(req, res, next) {
   const header = req.headers.authorization;
@@ -11,10 +17,10 @@ async function requireAuth(req, res, next) {
   const token = header.slice(7);
 
   try {
-    const payload = jwt.verify(token, process.env.JWT_SECRET);
+    const payload = jwt.verify(token, process.env.JWT_SECRET, { algorithms: ["HS256"] });
 
-    const session = await AdminSession.findOne({
-      token,
+    const session = await AdminSession.exists({
+      token: hashToken(token),
       revoked: false,
       expiresAt: { $gt: new Date() },
     });
@@ -31,4 +37,4 @@ async function requireAuth(req, res, next) {
   }
 }
 
-module.exports = { requireAuth };
+module.exports = { requireAuth, hashToken };

@@ -1,9 +1,14 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const multer = require("multer");
 const TeamMember = require("../models/TeamMember");
 const { requireAuth } = require("../middleware/auth");
-const { uploadImageBuffer, deleteImage } = require("../utils/uploadImage");
+const {
+  uploadImageBuffer,
+  deleteImage,
+  imageUpload,
+  handleUpload,
+} = require("../utils/uploadImage");
+const { sendError } = require("../utils/httpError");
 
 const router = express.Router();
 
@@ -14,17 +19,11 @@ router.param("id", (req, res, next, id) => {
   next();
 });
 
-const upload = multer({
-  storage: multer.memoryStorage(),
-  limits: { fileSize: 8 * 1024 * 1024 },
-  fileFilter: (_req, file, cb) => {
-    if (file.mimetype.startsWith("image/")) {
-      cb(null, true);
-    } else {
-      cb(new Error("Only image files are allowed"));
-    }
-  },
-});
+const memberImage = handleUpload(imageUpload.single("image"));
+
+function text(value) {
+  return typeof value === "string" ? value.trim() : "";
+}
 
 function parseSortOrder(raw) {
   const n = Number(raw);
@@ -33,7 +32,7 @@ function parseSortOrder(raw) {
 
 router.get("/", async (_req, res) => {
   try {
-    const members = await TeamMember.find().sort({ sortOrder: 1, createdAt: 1 });
+    const members = await TeamMember.find().sort({ sortOrder: 1, createdAt: 1 }).lean();
     res.json({ members });
   } catch (error) {
     console.error("Fetch team members error:", error);
@@ -43,7 +42,7 @@ router.get("/", async (_req, res) => {
 
 router.get("/:id", async (req, res) => {
   try {
-    const member = await TeamMember.findById(req.params.id);
+    const member = await TeamMember.findById(req.params.id).lean();
     if (!member) {
       return res.status(404).json({ message: "Team member not found" });
     }
@@ -54,11 +53,12 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-router.post("/", requireAuth, upload.single("image"), async (req, res) => {
+router.post("/", requireAuth, memberImage, async (req, res) => {
   try {
-    const { name, role } = req.body;
+    const name = text(req.body.name);
+    const role = text(req.body.role);
 
-    if (!name?.trim() || !role?.trim()) {
+    if (!name || !role) {
       return res.status(400).json({ message: "Name and role are required" });
     }
 
@@ -66,15 +66,11 @@ router.post("/", requireAuth, upload.single("image"), async (req, res) => {
       return res.status(400).json({ message: "Image is required" });
     }
 
-    const image = await uploadImageBuffer(
-      req.file.buffer,
-      req.file.mimetype,
-      "team"
-    );
+    const image = await uploadImageBuffer(req.file.buffer, req.file.mimetype, "team");
 
     const member = await TeamMember.create({
-      name: name.trim(),
-      role: role.trim(),
+      name,
+      role,
       image,
       sortOrder: parseSortOrder(req.body.sortOrder),
     });
@@ -82,39 +78,34 @@ router.post("/", requireAuth, upload.single("image"), async (req, res) => {
     res.status(201).json({ message: "Team member created", member });
   } catch (error) {
     console.error("Create team member error:", error);
-    res.status(500).json({
-      message: error.message || "Failed to create team member",
-    });
+    sendError(res, error, "Failed to create team member");
   }
 });
 
-router.put("/:id", requireAuth, upload.single("image"), async (req, res) => {
+router.put("/:id", requireAuth, memberImage, async (req, res) => {
   try {
     const member = await TeamMember.findById(req.params.id);
     if (!member) {
       return res.status(404).json({ message: "Team member not found" });
     }
 
-    const { name, role } = req.body;
+    const name = text(req.body.name);
+    const role = text(req.body.role);
 
-    if (!name?.trim() || !role?.trim()) {
+    if (!name || !role) {
       return res.status(400).json({ message: "Name and role are required" });
     }
 
     if (req.file) {
-      const uploaded = await uploadImageBuffer(
-        req.file.buffer,
-        req.file.mimetype,
-        "team"
-      );
+      const uploaded = await uploadImageBuffer(req.file.buffer, req.file.mimetype, "team");
       if (member.image?.publicId) {
         await deleteImage(member.image.publicId);
       }
       member.image = uploaded;
     }
 
-    member.name = name.trim();
-    member.role = role.trim();
+    member.name = name;
+    member.role = role;
     member.sortOrder = parseSortOrder(req.body.sortOrder);
 
     await member.save();
@@ -122,9 +113,7 @@ router.put("/:id", requireAuth, upload.single("image"), async (req, res) => {
     res.json({ message: "Team member updated", member });
   } catch (error) {
     console.error("Update team member error:", error);
-    res.status(500).json({
-      message: error.message || "Failed to update team member",
-    });
+    sendError(res, error, "Failed to update team member");
   }
 });
 

@@ -42,6 +42,7 @@ router.post("/login", loginLimiter.guard, async (req, res) => {
       return res.status(401).json({ message: "Invalid email or password" });
     }
     loginLimiter.reset(req);
+    await Admin.updateOne({ _id: admin._id }, { lastLoginAt: new Date() });
 
     const token = jwt.sign(
       { id: admin.email, email: admin.email, role: admin.role },

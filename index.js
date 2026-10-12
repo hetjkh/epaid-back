@@ -8,6 +8,7 @@ const productRoutes = require("./routes/products");
 const teamRoutes = require("./routes/team");
 const contentRoutes = require("./routes/content");
 const uploadRoutes = require("./routes/uploads");
+const adminRoutes = require("./routes/admins");
 const { securityHeaders } = require("./middleware/security");
 const { UPLOADS_DIR } = require("./utils/uploadImage");
 
@@ -55,6 +56,7 @@ app.use("/api/products", productRoutes);
 app.use("/api/team", teamRoutes);
 app.use("/api/content", contentRoutes);
 app.use("/api/uploads", uploadRoutes);
+app.use("/api/admins", adminRoutes);
 
 app.use((_req, res) => {
   res.status(404).json({ message: "Not found" });

@@ -4,7 +4,7 @@ const { requireAuth } = require("../middleware/auth");
 
 const router = express.Router();
 
-const ALLOWED_KEYS = new Set(["home", "about", "solutions"]);
+const ALLOWED_KEYS = new Set(["home", "about", "solutions", "blogs"]);
 
 function isPlainObject(value) {
   return value !== null && typeof value === "object" && !Array.isArray(value);
